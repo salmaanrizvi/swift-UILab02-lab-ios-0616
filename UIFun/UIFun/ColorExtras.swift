@@ -38,12 +38,12 @@ extension UIView {
         }
         set {
             switch newValue {
-            case "red": paintColor = UIColor.redColor()
-            case "blue": paintColor = UIColor.blueColor()
-            case "yellow": paintColor = UIColor.yellowColor()
-            case "purple": paintColor = UIColor.purpleColor()
-            case "orange": paintColor = UIColor.orangeColor()
-            case "green": paintColor = UIColor.greenColor()
+            case "Red": paintColor = UIColor.redColor()
+            case "Blue": paintColor = UIColor.blueColor()
+            case "Yellow": paintColor = UIColor.yellowColor()
+            case "Purple": paintColor = UIColor.purpleColor()
+            case "Orange": paintColor = UIColor.orangeColor()
+            case "Green": paintColor = UIColor.greenColor()
             default: assert(false, "Invalid paint color: \(newValue)")
             }
         }
